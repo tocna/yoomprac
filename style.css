@@ -1,0 +1,103 @@
+body{
+    background-color: #1c1f2e;
+    display: flex;
+    margin: 0rem;
+    justify-content: space-evenly;
+}
+
+aside{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main{
+    flex: 2rem;
+}
+
+.personal{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+    align-items: center;
+    gap: 2rem
+}
+
+.personal:hover{
+    background-color: #0e78f9;
+}
+
+.personal i{
+    color: #c9ddff;
+}
+
+
+.home{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.home:hover{
+    background-color: #0e78f9;
+}
+
+
+header{
+    justify-content: right;
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+/* main{
+    display: flex;
+    flex-direction: column;
+    gap
+} */
+
+.back{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border-radius: 1rem;
+    border:  solid 3rem #161925;
+}
+
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.Dash div:first-child{
+    background-image: url(./images/image\ 23.png);
+    background-size: 100% ;
+    text-align: left;
+    padding: 6rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background;
+}
+
+.upcome{
+    color: white;
+    
+}
+
+.time{
+    font-size: 5rem;
+    color: white;
+}
+
